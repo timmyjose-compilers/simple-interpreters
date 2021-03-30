@@ -1,2 +1,6 @@
 # simple-vms
-A colletion of implementations of simple VMs.
+A collection of implementations of simple VMs.
+
+## LICENCE
+
+See [LICENSE](LICENSE.md).

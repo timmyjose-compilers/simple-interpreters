@@ -2,14 +2,14 @@ package com.z0ltan.compilers.vms.hypo;
 
 public class Instruction {
   public Opcodes op;
-  public int d;
+  public short d;
 
-  public Instruction(final Opcodes op, final int d) {
+  public Instruction(final Opcodes op, final short d) {
     this.op = op;
     this.d = d;
   }
 
   public Instruction(final Opcodes op) {
-    this(op, -1);
+    this(op, (short)-1);
   }
 }

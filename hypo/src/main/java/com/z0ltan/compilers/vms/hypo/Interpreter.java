@@ -15,7 +15,7 @@ public class Interpreter {
   private void loadProgram() {
     try (BufferedReader reader = new BufferedReader(new FileReader(this.filepath))) {
       String line = null;
-      int nextInstrAddr = 0;
+      short nextInstrAddr = 0;
 
       while ((line = reader.readLine()) != null) {
         if (line.startsWith(";") || line.length() == 0) {
@@ -31,7 +31,7 @@ public class Interpreter {
         if (cmd.equals("HALT")) {
           this.machine.code[nextInstrAddr++] = new Instruction(Opcodes.HALT);
         } else {
-          int operand = Integer.valueOf(instr[1]);
+          short operand = Short.valueOf(instr[1]);
 
           switch (cmd) {
             case "STORE":
@@ -120,7 +120,7 @@ public class Interpreter {
     } while (this.machine.status != Status.HALTED);
   }
 
-  public int result() {
+  public short result() {
     return this.machine.ACC;
   }
 }

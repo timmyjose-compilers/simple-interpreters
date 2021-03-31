@@ -4,7 +4,7 @@ A collection of implementations of simple interpreters (including VMs), taken fr
 by professors Watt and Brown.
 
   - [hypo](hypo)
-  - [command-shell](command-shell)
+  - [mini-shell](mini-shell)
   - [mini-basic](mini-basic)
 
 ## LICENCE

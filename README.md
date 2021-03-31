@@ -5,7 +5,6 @@ by professors Watt and Brown.
 
   - [hypo](hypo)
   - [mini-shell](mini-shell)
-  - [mini-basic](mini-basic)
 
 ## LICENCE
 

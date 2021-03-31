@@ -9,6 +9,7 @@ executed. The instruction at address 0 is executed first.
 
 Here is the list of all the opcodes supported by Hypo:
 
+```
 ---------------------------------------------------
 | Opcode     Instruction        Meaning           |
 ---------------------------------------------------
@@ -21,6 +22,7 @@ Here is the list of all the opcodes supported by Hypo:
 |   6          JUMPZd       PC <- d, if ACC = 0   |
 |   7          HALT         stop execution        |
 ---------------------------------------------------
+```
 
 ### Data Store
 
